@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "setup my eric skills",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "configureOtp",
+          "slots": [
+            {
+              "name": "otp",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "{otp} is my otp",
+            "{otp}",
+            "my otp is {otp}"
+          ]
+        },
+        {
+          "name": "confirmOtpStatus",
+          "slots": [],
+          "samples": [
+            "yes"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "6"
+}
